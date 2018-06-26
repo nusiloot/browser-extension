@@ -21,8 +21,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://github.com/*",
-        "https://gist.github.com/*"
+        "https://gecgithub01.walmart.com/*",
+        "https://gist.gecgithub01.walmart.com/*"
       ],
       "js": [
         "app.js"
@@ -35,8 +35,8 @@
     }
   ],
   "permissions": [
-    "https://github.com/",
-    "https://gist.github.com/",
+    "https://gecgithub01.walmart.com/",
+    "https://gecgithub01.walmart.com/",
     "https://githublinker.herokuapp.com/"
   ]
 }
